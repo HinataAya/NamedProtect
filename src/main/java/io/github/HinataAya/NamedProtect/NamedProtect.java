@@ -7,6 +7,8 @@ public final class NamedProtect extends JavaPlugin {
 	@Override
 	public void onEnable(){
 		
+		this.getServer().getPluginManager().registerEvents(new InteractListener(), this);
+		
 		getLogger().info("[NP] NamedProtect is Enable.");
 	}
 	

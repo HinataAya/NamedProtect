@@ -3,5 +3,6 @@ NamedProtect
 
 [Minecraft][Bukkit]
 
-¥Î©R¦WµP±N¥Íª«¤WÂêªº´¡¥ó.
-A plugin to protect named entities.
+ç”¨é€”: ä½¿ç”¨å‘½åç‰Œå°‡ç”Ÿç‰©ä¸Šé–.
+
+Use: protect named entities.
