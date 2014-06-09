@@ -3,4 +3,31 @@
   <groupId>io.github.hinataaya</groupId>
   <artifactId>NamedProtect</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>1.7</source>
+                  <target>1.7</target>
+              </configuration>
+          </plugin>
+      </plugins>
+   </build>
+   <repositories>
+       <repository>
+           <id>bukkit-repo</id>
+           <url>http://repo.bukkit.org/content/groups/public/</url>
+       </repository>
+   </repositories>
+   <dependencies>
+       <dependency>
+           <groupId>org.bukkit</groupId>
+           <artifactId>bukkit</artifactId>
+           <version>1.7.2-R0.3</version>
+           <type>jar</type>
+           <scope>provided</scope>
+       </dependency>
+   </dependencies>
 </project>
