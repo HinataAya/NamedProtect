@@ -8,8 +8,13 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 public final class InteractListener implements Listener {
 	
 	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
-	public void onNameTagOn(PlayerInteractEntityEvent event){
+	public void onName(PlayerInteractEntityEvent event){
 		
+		
+	}
+	
+	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+	public void onFeed(PlayerInteractEntityEvent event){
 		
 	}
 }

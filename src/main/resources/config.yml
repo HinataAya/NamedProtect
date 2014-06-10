@@ -1,2 +1,16 @@
-ignore:
-  
+Localization: zh-tw
+
+Private:
+  Tag: '[#Private]'
+  canOthersFeed: false 
+  canKillbyEntity: true
+  Entities:
+    - Horse
+
+Public:
+  Tag: '[#Public]'
+  canOthersFeed: false
+  canKillbyEntity: false
+  Entities:
+    - Ship
+    - Mooshroom

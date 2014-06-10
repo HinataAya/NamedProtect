@@ -7,7 +7,7 @@ public final class NamedProtect extends JavaPlugin {
 	@Override
 	public void onEnable(){
 		
-		saveDefaultConfig();
+		this.saveDefaultConfig();
 		
 		this.getServer().getPluginManager().registerEvents(new InteractListener(), this);
 		

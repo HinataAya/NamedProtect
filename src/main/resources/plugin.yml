@@ -1,3 +1,24 @@
 name: NamedProtect
 main: io.github.HinataAya.NamedProtect.NamedProtect
 version: 0.1
+
+permissin:
+  namedprotect.*:
+    description: Use name tag to protect entities.
+    children:
+      namedprotect.publicName: true
+      namedprotect.publicKill: true
+      namedprotect.privateName: true
+      namedprotect.privateKill: true
+  namedprotect.publicName:
+    description: Allow to name a public entity.
+    default: op
+  namedprotect.publicKill:
+    description: Allow to kill a public entity.
+    default: op
+  namedprotect.privateName:
+    description: Allow to name a private entity.
+    default: true
+  namedprotect.privateKill:
+    description: Allow to kill a private entity.
+    default: op
