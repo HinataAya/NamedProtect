@@ -1,16 +1,18 @@
 Localization: zh-tw
 
 Private:
-  Tag: '[#Private]'
-  canOthersFeed: false 
+  KeyChar: '#'
+  canOthersFeed: false
+  canOthersRide: false
   canKillbyEntity: true
   Entities:
-    - Horse
+    - HORSE
 
 Public:
-  Tag: '[#Public]'
+  KeyChar: '%'
   canOthersFeed: false
+  canOthersRide: true
   canKillbyEntity: false
   Entities:
-    - Ship
-    - Mooshroom
+    - SHEEP
+    - MUSHROOM_COW
